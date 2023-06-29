@@ -20,5 +20,11 @@ void loop() {
         Serial.println(" Low Intensity ");
         digitalWrite(5,HIGH); /* turn the LED on*/
     }
+
+ /*
+    // to control LED brightness
+    int brightness = potentiometerValue;
+    analogWrite(led, brightness);
+ */
     delay(1000);
 }
